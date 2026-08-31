@@ -27,7 +27,7 @@ const createReview = async (req, res) => {
 };
 
 const showReview = async (req, res) => {
-    console.log("show review routes")
+   
     const { productId } = req.params;
     const product = await Product.findById(productId);
     if (!product) {
