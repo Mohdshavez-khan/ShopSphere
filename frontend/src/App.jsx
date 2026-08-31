@@ -18,7 +18,7 @@ import AdminOrders from "./pages/admin/Orders";
 import AllUsers from "./pages/admin/AllUsers";
 import Logout from "./pages/Logout";
 import CheckOut from "./pages/user/Checkout";
-import OrderSuccess from "./pages/user/orderSuccess";
+import OrderSuccess from "./pages/user/OrderSuccess";
 import { Toaster } from "react-hot-toast";
 
 function App() {
