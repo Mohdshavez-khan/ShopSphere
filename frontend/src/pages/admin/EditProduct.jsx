@@ -41,8 +41,7 @@ function EditProduct() {
             setImageFile(imageUrl)
             setForm(product);
             setPreview(imageUrl);
-            console.log("Fetched product data:", res.data.product);
-
+           
         } catch (error) {
             console.log(error.response);
             console.log(error.message);
