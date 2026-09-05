@@ -153,22 +153,33 @@ The mobile interface includes a dedicated navigation drawer with:
 ## 🏗️ Application Architecture
 
 ```text
-ShopSphere
+ShopSphere/
 │
-├── Frontend
-│   ├── Pages
-│   ├── Components
-│   ├── Navigation
-│   ├── Product UI
-│   ├── Cart UI
-│   └── User Interface
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── api/
+│       ├── assets/
+│       ├── components/
+│       ├── layouts/
+│       ├── pages/
+│       │   ├── admin/
+│       │   └── user/
+│       ├── utils/
+│       ├── App.jsx
+│       ├── App.css
+│       ├── index.css
+│       └── main.jsx
 │
-├── Backend
-│   ├── Routes
-│   ├── Controllers
-│   ├── Models
-│   ├── Middleware
-│   └── Authentication
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middlewares/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   ├── App.js
+│   └── Schema.js
 │
-└── Database
-    └── MongoDB
+├── .gitignore
+└── README.md
